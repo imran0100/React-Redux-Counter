@@ -1,7 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { actionCreators } from "../state/index";
-import { bindActionCreators } from "redux";
 export default function Shop() {
   const dispatch = useDispatch();
   return (
